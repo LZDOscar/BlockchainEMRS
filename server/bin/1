@@ -1,0 +1,45 @@
+               Build b810cbe6b1da72deba9bfa28ef342740f98c59a6
+         balancehash true
+        FNode 0 Salt e3f9de54ab4f93ba
+           enablenet true
+         waitentries false
+                node 0
+              prefix 
+          node count 1
+            net spec "tree"
+         Msgs droped 0
+             journal ""
+            database "LDB"
+ database for clones ""
+                port "8088"
+               peers ""
+            netdebug "0"
+           exclusive "false"
+          block time 6
+        faultTimeout 60
+          runtimeLog false
+              rotate false
+          timeOffset 0
+        keepMismatch false
+          startDelay 10
+             Network LOCAL
+           customnet e3b0c442
+       deadline (ms) 1000
+                 tls false
+            selfaddr 
+             rpcuser ""
+             rpcpass is blank
+              FNode0 Loading Block    1000 / 14104. Blocks per second    81.99
+              FNode0 Loading Block    2000 / 14104. Blocks per second    94.48
+              FNode0 Loading Block    3000 / 14104. Blocks per second   121.72
+              FNode0 Loading Block    4000 / 14104. Blocks per second   134.59
+              FNode0 Loading Block    5000 / 14104. Blocks per second   147.19
+              FNode0 Loading Block    6000 / 14104. Blocks per second   160.28
+              FNode0 Loading Block    7000 / 14104. Blocks per second   165.60
+              FNode0 Loading Block    8000 / 14104. Blocks per second   175.70
+              FNode0 Loading Block    9000 / 14104. Blocks per second   185.01
+              FNode0 Loading Block   10000 / 14104. Blocks per second   192.50
+              FNode0 Loading Block   11000 / 14104. Blocks per second   195.55
+              FNode0 Loading Block   12000 / 14104. Blocks per second   202.07
+              FNode0 Loading Block   13000 / 14104. Blocks per second   203.30
+              FNode0 Loading Block   14000 / 14104. Blocks per second   208.54

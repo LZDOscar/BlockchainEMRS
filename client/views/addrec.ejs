@@ -1,0 +1,17 @@
+<%- include header %>
+<form method="post">
+  Case Id：  <input id="caseid" type="text" name="caseid" /><br />
+  Gender ：  <input id= "gender" type="radio" value="1" checked="checked" name="gender">
+                      男
+            <input id= "gender" type="radio" value="2" name="gender">
+                      女><br />
+  Age：     <input id="age" type="text" name="age"/><br />
+  Weight：   <input id="weight" type="text" name="weight"/><br />
+  Date：     <input id="date" type="text" name="date"/><br />
+  Symptom	<input id="symptom" name="symptom" type="text" ><br />
+  Note     <textarea  id="note" name="note"></textarea><br />
+  User Id: <input id="userid" type="text" name="userid"/><br />
+  Secret: <input id="secret" type="text" name="secret"/><br />
+           <input type="submit" value="submit"/>
+</form>
+<%- include footer %>

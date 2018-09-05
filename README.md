@@ -1,4 +1,4 @@
-# BITMEDI
+# BlockchainEMRS
 A blockchain solution for Medical Records Keeping
 
 
@@ -17,19 +17,20 @@ a browser like as Chrome/Firfox keep latest version
 ## Dev Requirements
 - [factom](http://factom.org/howto.html "factom") release v1
 - node.js 4.2.4 or above
-- python 2.7
+- python 3.6
 
 ## Getting started
 1. install factomd/fctwallet/factom-cli in your server
-1. entry path *sbin* to execute *startup_svr.sh*
+1. entry path *server/bin* to execute *startup_svr.sh*
 you should ensure services have been started with command *netstat -tanp*
 find out port 8088/8089 state listening, progress name *factomd/fctwallet*
-1.  execute *init_db.py* to create table on sqlite3
+1.  execute *server/init_db.py* to create table on sqlite3
 you can give other database to instead of sqlite3
-1.  execute *init_by_cli.sh* with your factom private key and a new entry key
+1.  execute *server/init_by_cli.sh* with your factom private key and a new entry key
 to generate your public address to service
 1. see factom-cli commond with help: *factom-cli* -help, then execute:
 *factom-cli balances*
+1. then start the jsonserver and client :)
 
 ## License
-BitMedi is released under the terms of the MIT license. See http://mit-license.org for more information.
+BlockchainEMRS is released under the terms of the MIT license. See http://mit-license.org for more information.

@@ -9,7 +9,7 @@ A blockchain solution for Medical Records Keeping
 
 ## OverView
 
-![](http://images2015.cnblogs.com/blog/554579/201601/554579-20160110092544075-2033874255.png)
+![](https://github.com/LZDOscar/BlockchainEMRS/blob/master/module_architecture_picture.png)
 
 ## User Requirements
 a browser like as Chrome/Firfox keep latest version
